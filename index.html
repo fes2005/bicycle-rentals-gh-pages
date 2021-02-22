@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leo Velo</title>
+    <link rel="icon" href="img/leologo.jpg">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header id="home">
+        <nav>
+            <div class="logo">Leo Velo</div>
+            <img src="img/leologo.jpg" alt="Leo logo">
+            <ul class="menu">
+                <li>
+                    <a href="#bicycle-types">Ровери</a>
+                </li>
+                <li>
+                    <a href="#price-list">Ціни</a>
+                </li>
+                <li>
+                    <a href="#group-tours">Екскурсії</a>
+                </li>
+                <li>
+                    <a href="#about-us">Про нас</a>
+                </li>
+                <li>
+                    <a href="#contacts">Де ми є</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <h1>Прокат велосипедів</h1>
+        </div>
+    </header>
+    <main>
+        <h2 id="bicycle-types">Обери велосипед</h2>
+        <div class="bicycle-types">
+            <article>
+                <h3>Міський</h3>
+                <img src="img/cube-city.jpg" alt="Міський">
+                <div class="buttons">
+                    <button>Інфо</button>
+                </div>
+            </article>
+            <article>
+                <h3>Тандем</h3>
+                <img src="img/tandem.jpg" alt="Тандем">
+                <div class="buttons">
+                    <button>Інфо</button>
+                </div>
+            </article>
+            <article>
+                <h3>Для дітей</h3>
+                <img src="img/cube-kids.jpeg" alt="Для дітей">
+                <div class="buttons">
+                    <button>Інфо</button>
+                </div>
+            </article>
+            <article>
+                <h3>E-bikes</h3>
+                <img src="img/e-bike.jpg" alt="E-bikes">
+                <div class="buttons">
+                    <button>Інфо</button>
+                </div>
+            </article>
+        </div>
+        <h2 id="prices">Ціни</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Прокат</th>
+                    <th>Година</th>
+                    <th>День</th>
+                    <th>Тиждень</th>
+                    <th>Місяць</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Міський</td>
+                <td>10</td>
+                <td>100</td>
+                <td>500</td>
+                <td>1500</td>
+            </tr>
+            <tr>
+                <td>Тандем</td>
+                <td>15</td>
+                <td>150</td>
+                <td>750</td>
+                <td>1900</td>
+            </tr>
+            <tr>
+                <td>Для дітей</td>
+                <td>5</td>
+                <td>50</td>
+                <td>250</td>
+                <td>750</td>
+            </tr>
+            <tr>
+            <td>E-bikes</td>
+            <td>20</td>
+            <td>200</td>
+            <td>900</td>
+            <td>2200</td>
+            </tr>
+        </table>
+        <h2 id="group-tours">Екскурсії</h2>
+        <div class="group-tours">
+            
+            <p>
+                Проводимо екскурсії у місті Лева , для дітей і дорослих ,центром міста і у парках, на роверах.
+                Напишіть нам і ми створимо незабутню атмосферу,проїдемо вуличками старого міста,відвідаємо цікаві
+                локації,проведемо час з користю на свіжому повітрі . Leo Velo
+            </p>
+        </div>
+        <h2 id="about-us">Про нас</h2>
+        <div class="about-us">
+            
+            <p>
+                Leo Velo
+                Ми команда яка 24/7/365 на роверах.Давай з нами 
+            </p>
+        </div>
+    </main>
+    <footer>
+        <h2 id="contacts">Де ми є</h2>
+        <p>
+            Є питання чи побажання, ми чекаємо на вас.
+        </p>
+        <p>
+            Де Україна. Львів. Стрийський парк
+        </p>
+        <p>
+            Коли Пн-Нд з 9-00 до 21-00
+        </p>
+        <p>
+            Як +38(001) 123 00 00
+            fes2005@ukr.net
+        </p>
+        <form action method="POST">
+            <label>
+                "Name"
+                <input type="text" name="name" placeholder="Name" required>
+            </label>
+            <label>
+                "Phone number"
+                <input type="number" name="number" placeholder="Phone number" required>
+            </label>
+            <label>
+                "Email"
+                <input type="email" name="email" placeholder="Email" required>
+            </label>
+            <label for="message">
+                "Type your message"
+            </label>
+            <textarea id="message" name="message" placeholder="Message" required></textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </footer>
+</body>
+
+</html>

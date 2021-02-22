@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+header nav .logo {
+    font-family: "Source Serif Pro", serif;
+    font-size: 4rem;
+    font-style: italic;
+    color: white;
+    padding: 50px;
+
+}
+
+header nav .menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1.5rem;
+    color: white;
+    min-height: 70px;
+    max-width: 100%;
+}
+
+header nav {
+    background-image: url(../img/night-city.jpg);
+}
+
+header .banner {
+    background-image: url(../img/lviv-view2.jpg);
+    background-size: cover;
+    background-position: left;
+    min-height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .banner h1 {
+    background-size: cover;
+    background-position: left;
+    font-size: 6rem;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    display: grid;
+    
+}
+
+
+
+.burger-icon {
+    font-size: 3rem;
+}
+
+#burger-checkbox {
+    display: none;
+}
+
+header .menu {
+    display: none;
+}
+
+header input:checked ~ .menu {
+    display: flex;
+}
+
+header .menu {
+    flex-direction: column;
+}
+
+header .menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    padding: 3px;
+}
+
+header .menu a:hover {
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    header nav {
+        display: flex;
+    }
+
+    .burger-icon {
+        display: none;
+    }
+
+    header .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+    }
+
+h2 {
+
+    background-size: cover;
+    background-position: left;
+    font-size: 3rem;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    display: grid;
+}
+
+.bicycle-types article img {
+    width: 60%;
+    display: grid;
+    grid-template-rows: max-content; 
+}
+
+.bicycle-types article img {
+border: 1px black;
+}
+
+.bicycle-types {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+tr {
+  background-image: url(../img/bike2.jpg);  
+  table-layout: 100%;
+  min-width: 100%;
+  vertical-align: 30px;
+  border: 2px solid white;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: white;
+  display: inline-flex;
+  justify-content: space-around;
+  font-size: 2.5rem;
+  font-family: 'Source Serif Pro', serif;
+  text-align-last;
+
+}
+
+
+.group-tours {
+    background-image: url(../img/lviv.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 990px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 2.5rem;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    margin: auto;
+    color: yellow;
+}
+
+.about-us {
+  background-image: url(../img/collage.jpg);
+  font-size: 3.5em;
+  width: 100%;
+  min-height: 1240px;
+  color: black;
+  margin: auto;
+} 
+
+@media (min-width: 600px) {
+    .bicycle-types {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 800px) {
+    .bicycle-types {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .bicycle-types {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+footer {
+    background-image: url(../img/night-city.jpg);
+    font-size: 2em;
+    width: 100%;
+    min-height: 800px;
+    color: white;
+    margin: auto;
+
+}
+
+footer form label {
+    display: flex;
+    font-size: 1em;
+    border: 2px solid black;
+    padding: 10px;
+    width: 30%;
+    text-align: justify;
+    justify-content: flex-start;
+    
+}
+
+
+
