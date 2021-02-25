@@ -48,8 +48,6 @@ header .banner h1 {
     
 }
 
-
-
 .burger-icon {
     font-size: 3rem;
 }
@@ -109,9 +107,8 @@ h2 {
     
 }
 
-
 .slick-slider{
-	min-width: 170%;
+	min-width: 90%;
 }
 
 .slick-list {
@@ -121,18 +118,13 @@ h2 {
 .slick-track{
 	display: flex;
 	align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-
-
-
 
 .bicycle-types {
 	position: relative;
 	padding: 0px 60px;
 }
-
-
 
 .bicycle-types .slick-arrow{
 	position: relative;
@@ -145,17 +137,15 @@ h2 {
 }
 .bicycle-types .slick-arrow.slick-prev{
 	left: 0;
-	background: url('../img/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+	background: url('../img/back.png') 0 0 / 100% no-repeat;
 }
 .bicycle-types .slick-arrow.slick-next{
 	right: 0;
-	background: url('../img/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+	background: url('../img/next.png') 0 0 / 100% no-repeat;
 }
 .bicycle-types .slick-arrow.slick-disabled{
 	opacity: 0.2;
 }
-
-
 
 .bicycle-types .slick-dots li.slick-active button{
 	background-color: transparent;
@@ -169,7 +159,6 @@ h2 {
 	max-width: 100%;
     
 }
-
 
 tr {
   background-image: url(../img/bike2.jpg);  
@@ -185,10 +174,9 @@ tr {
   justify-content: space-around;
   font-size: 2.5rem;
   font-family: 'Source Serif Pro', serif;
-  text-align-last;
+  text-align-last ;
 
 }
-
 
 .group-tours {
     background-image: url(../img/lviv.jpg);
@@ -209,10 +197,10 @@ tr {
 .about-us {
   background-image: url(../img/collage.jpg);
   font-size: 3.5em;
-  min-width: 100%;
+  max-width: 100%;
   min-height: 1240px;
-  color:yellow;
-  margin: auto;
+  color:black;
+
 } 
 
 @media (min-width: 600px) {
@@ -237,8 +225,7 @@ tr {
 footer {
     background-image: url(../img/night-city.jpg);
     font-size: 1em;
-    width: 100%;
-    min-height: 500px;
+    max-width: 100%;
     color: white;
     margin: auto;
 
@@ -251,9 +238,6 @@ footer form label {
     padding: 10px;
     width: 30%;
     text-align: justify;
-    justify-content: first baseline;
-    
+    justify-content: flex-start;
+
 }
-
-
-
