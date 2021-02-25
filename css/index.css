@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 
+body{
+    max-width: 100%;
+    margin: auto;
+}
 
 header nav .logo {
     font-family: "Source Serif Pro", serif;
@@ -157,8 +161,7 @@ h2 {
 }
 .bicycle-types img{
 	max-width: 100%;
-    
-}
+}    
 
 tr {
   background-image: url(../img/bike2.jpg);  
@@ -196,10 +199,13 @@ tr {
 
 .about-us {
   background-image: url(../img/collage.jpg);
-  font-size: 3.5em;
+  font-size: 2.5em;
   max-width: 100%;
-  min-height: 1240px;
+  min-height: 790px;
+  background-position: center;
+  background-size: contain;
   color:black;
+  font-style: italic;
 
 } 
 
