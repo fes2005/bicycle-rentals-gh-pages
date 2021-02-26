@@ -131,7 +131,7 @@ header .menu a:hover {
     }
 
 h2 {
-    
+    background-color: coral;
     font-size: 3rem;
     font-family: 'Source Serif Pro', serif;
     font-weight: bold;
@@ -228,18 +228,65 @@ tr {
     font-weight: bold;
     margin: auto;
     color: yellow;
-    padding: auto;
+    padding: 10px;
 }
+
+h4{
+    text-align: center;
+    background: yellow;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #396;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+  
+  #clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+  }
+  
+  #clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+  }
+  
+  .smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+  }
+  
+  
 
 .about-us {
   background-image: url(../img/collage.jpg);
-  font-size: 2.5em;
   max-width: 100%;
   min-height: 1240px;
-  color:black;
-  font-style: italic;
+  
 
 } 
+
+h5   {
+    padding: 1px;
+    margin: auto;
+    font-size: 2em;
+    color:black;
+    font-style: italic;
+}
 
 @media (min-width: 600px) {
     .bicycle-types {
